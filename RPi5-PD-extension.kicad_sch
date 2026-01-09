@@ -1,0 +1,1394 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "878321ff-aaf8-41ca-974f-ef56897ff458")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:HDMI_D_1.4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -6.35 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HDMI_D_1.4"
+				(at 10.16 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.635 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml"
+				(at 0.635 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HDMI 1.4+ type D connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "hdmi conn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "HDMI*D*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HDMI_D_1.4_0_0"
+				(polyline
+					(pts
+						(xy 0 16.51) (xy 0 18.034) (xy 0 17.272) (xy 1.905 17.272) (xy 1.905 18.034) (xy 1.905 16.51)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.667 18.034) (xy 4.318 18.034) (xy 4.572 17.78) (xy 4.572 16.764) (xy 4.318 16.51) (xy 2.667 16.51)
+						(xy 2.667 17.272)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.128 16.51) (xy 8.128 18.034)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HDMI_D_1.4_0_1"
+				(rectangle
+					(start -7.62 25.4)
+					(end 10.16 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 3.81 7.62) (xy 5.715 5.715) (xy 5.715 -5.715) (xy 3.81 -7.62) (xy 0 -7.62) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 6.35) (xy 3.175 6.35) (xy 3.81 5.715) (xy 3.81 -5.715) (xy 3.175 -6.35) (xy 1.905 -6.35)
+						(xy 1.905 5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 16.51) (xy 5.334 18.034) (xy 6.35 18.034) (xy 6.35 16.51) (xy 6.35 18.034) (xy 7.112 18.034)
+						(xy 7.366 17.78) (xy 7.366 16.51)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HDMI_D_1.4_1_1"
+				(pin passive line
+					(at -10.16 20.32 0)
+					(length 2.54)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 17.78 0)
+					(length 2.54)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 15.24 0)
+					(length 2.54)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "D0+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "D0-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "CK+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "CK-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "CEC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "UTILITY/HEAC+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "HPD/HEAC-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -27.94 90)
+					(length 2.54)
+					(name "D2S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -27.94 90)
+					(length 2.54)
+					(name "D1S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(name "D0S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -27.94 90)
+					(length 2.54)
+					(name "CKS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -27.94 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -27.94 90)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 13.97 13.97)
+		(end 168.91 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e2c9e1b-462d-47a3-94fa-64442f73a949)
+	)
+	(text "HDMI Port Extension"
+		(exclude_from_sim no)
+		(at 14.732 16.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "ab6bb2cd-9bae-4b98-9c26-a5fe59fe4129")
+	)
+	(wire
+		(pts
+			(xy 114.3 77.47) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0225f1ff-a1bc-406a-9023-62e45cb0daef")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0547f7c4-4099-49f4-8731-30b4a71ba742")
+	)
+	(wire
+		(pts
+			(xy 45.72 77.47) (xy 55.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ac6bc9-eb29-4b15-b8b3-b3a42a1648b3")
+	)
+	(wire
+		(pts
+			(xy 38.1 81.28) (xy 63.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207eb813-75a7-4f1d-a135-7c7c4bfd0eb3")
+	)
+	(wire
+		(pts
+			(xy 35.56 77.47) (xy 35.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5fb68e-75a4-4f52-90fb-567d004719ad")
+	)
+	(wire
+		(pts
+			(xy 35.56 82.55) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3945b8-029d-4710-a235-053dd0d11da1")
+	)
+	(wire
+		(pts
+			(xy 66.04 82.55) (xy 66.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ca9bf7-cf41-4b5d-88e9-7b59446ea7d6")
+	)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 142.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383d1522-32f5-4419-9b95-4748c3e1687f")
+	)
+	(wire
+		(pts
+			(xy 68.58 77.47) (xy 68.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3869d818-a4a8-499b-83d1-a17c9895539a")
+	)
+	(wire
+		(pts
+			(xy 142.24 82.55) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fab8bfa-b5be-455f-96c8-168c521a1de8")
+	)
+	(wire
+		(pts
+			(xy 60.96 80.01) (xy 60.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48024879-19f2-4146-8b95-ceef0b7a3131")
+	)
+	(wire
+		(pts
+			(xy 119.38 77.47) (xy 119.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489564e2-7ec2-4f1b-8af1-361b65fe5647")
+	)
+	(wire
+		(pts
+			(xy 109.22 83.82) (xy 109.22 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52073b0b-fa54-4c36-a14d-41d9fb2a94ca")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 137.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f840676-29a7-48c3-8181-42af3e748308")
+	)
+	(wire
+		(pts
+			(xy 40.64 77.47) (xy 40.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643e17d1-c43c-4a05-b400-23db5aa5c547")
+	)
+	(wire
+		(pts
+			(xy 33.02 83.82) (xy 33.02 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70dfc642-45ac-49e9-bb94-d7b305779b47")
+	)
+	(wire
+		(pts
+			(xy 116.84 21.59) (xy 137.16 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "724bf264-f100-4fdd-8216-81c1829581a9")
+	)
+	(wire
+		(pts
+			(xy 40.64 80.01) (xy 60.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a74eb7f-cea9-44b0-b2fc-0d234a4fc9c7")
+	)
+	(wire
+		(pts
+			(xy 40.64 21.59) (xy 60.96 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b05e8b5-ab17-4658-b6ce-acd4b3ce3756")
+	)
+	(wire
+		(pts
+			(xy 137.16 80.01) (xy 137.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83daceee-ae45-438c-b7f3-080b28938f77")
+	)
+	(wire
+		(pts
+			(xy 38.1 77.47) (xy 38.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd17900-a190-4952-8288-53b86f819eb8")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.28) (xy 139.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f5755c-9c6a-45ec-a180-619a6b53ea2f")
+	)
+	(wire
+		(pts
+			(xy 43.18 78.74) (xy 58.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a838c6d1-f6eb-4abc-adfe-110934db457d")
+	)
+	(wire
+		(pts
+			(xy 63.5 81.28) (xy 63.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa17fc5f-f942-47a3-8fa7-7df13934089e")
+	)
+	(wire
+		(pts
+			(xy 111.76 77.47) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae388b34-1bb1-4ee6-b6c2-3ca6de1e0f77")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b803910b-02c2-407d-a971-03ab8b7f6827")
+	)
+	(wire
+		(pts
+			(xy 116.84 77.47) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf08bbee-1f77-4192-a5ec-7c65842098d6")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12f90a7-d7c0-4a3b-abf2-61b44958af91")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 33.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9467f62-1c82-43e1-bf35-fc7b4a8414bf")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 58.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac02952-9f27-4f5b-9573-e3720edd34eb")
+	)
+	(wire
+		(pts
+			(xy 43.18 77.47) (xy 43.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc93b8b-8f73-4242-a7de-8b14c3443a11")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdad95c-55db-47f3-b661-4eafc28352f5")
+	)
+	(wire
+		(pts
+			(xy 134.62 78.74) (xy 134.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc787f6-41d1-405a-9fea-46fc496fb8b2")
+	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 132.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef5213d-6ca0-496c-864c-aecba009275a")
+	)
+	(symbol
+		(lib_id "Connector:HDMI_D_1.4")
+		(at 40.64 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c58fda2-f149-4d46-8c8c-67100a03b824")
+		(property "Reference" "J1"
+			(at 29.21 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HDMI0_Plug"
+			(at 29.21 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.005 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml"
+			(at 40.005 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HDMI 1.4+ type D connector"
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "c67a545c-1643-4a0b-9379-fca71136eea9")
+		)
+		(pin "13"
+			(uuid "a9104a85-5f08-4fa7-98c1-f87d6bb0272c")
+		)
+		(pin "17"
+			(uuid "8b3a6d2d-c994-4c03-aecb-08ec1a535ab6")
+		)
+		(pin "1"
+			(uuid "80da568d-5c22-4969-8b4e-aa6d34c39cae")
+		)
+		(pin "8"
+			(uuid "84f987d5-48f2-4fb9-9e3e-55b1ab713a71")
+		)
+		(pin "19"
+			(uuid "28ae7f5c-77e5-48fb-b17f-3b189ae3e21d")
+		)
+		(pin "4"
+			(uuid "73448bba-f568-445a-b9fe-47b8584783bc")
+		)
+		(pin "10"
+			(uuid "e0f2d31a-de3b-4ad2-9be6-bd910d6297a5")
+		)
+		(pin "6"
+			(uuid "d2e32056-a5b4-46ca-bb9b-f0cc68098a35")
+		)
+		(pin "3"
+			(uuid "c97d533b-d349-4917-9ca9-ae8c31983974")
+		)
+		(pin "5"
+			(uuid "49d0b428-eeba-4784-950a-b090ec7fcec2")
+		)
+		(pin "9"
+			(uuid "a819d601-3945-492e-8b93-bfbe68721bd6")
+		)
+		(pin "11"
+			(uuid "48911bc2-9901-49a9-906d-170499b3a0a3")
+		)
+		(pin "14"
+			(uuid "c574321d-12b8-4106-960d-6351d461b7a0")
+		)
+		(pin "15"
+			(uuid "33f129a4-9ba3-4b4c-bb0b-822db8f95831")
+		)
+		(pin "18"
+			(uuid "54ca06de-d641-41ac-8eb7-777113061e9c")
+		)
+		(pin "2"
+			(uuid "c4740ffb-b624-4993-a8c8-ea58c9524cad")
+		)
+		(pin "7"
+			(uuid "50e1867c-4026-48a1-9388-c994b71c8037")
+		)
+		(pin "SH"
+			(uuid "58ce4ec8-f56c-43a5-871c-387e78bd7a02")
+		)
+		(pin "16"
+			(uuid "d61fe50b-91ca-494c-921c-14214a209227")
+		)
+		(instances
+			(project ""
+				(path "/878321ff-aaf8-41ca-974f-ef56897ff458"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:HDMI_D_1.4")
+		(at 137.16 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49754f51-9c2f-4efb-bdb6-a29c242a3487")
+		(property "Reference" "J4"
+			(at 148.59 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HDMI1_Receptacle"
+			(at 148.59 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.795 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml"
+			(at 137.795 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HDMI 1.4+ type D connector"
+			(at 137.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "0de00c64-49ef-4c1d-850e-6e4a9a44c114")
+		)
+		(pin "13"
+			(uuid "fa676a65-ed0d-4b00-a1f3-4718ad1af936")
+		)
+		(pin "17"
+			(uuid "8b49f8cb-bc35-4b6b-b14b-861ca7828a0e")
+		)
+		(pin "1"
+			(uuid "a1ed3c72-76da-4ab5-b2ff-50b5dca2e477")
+		)
+		(pin "8"
+			(uuid "0c50ffeb-f782-470c-b8bd-235751c94a89")
+		)
+		(pin "19"
+			(uuid "c13e3f41-c1b6-410c-b691-f1a53707f9b5")
+		)
+		(pin "4"
+			(uuid "294f0655-d963-437c-b799-a243a5e19df2")
+		)
+		(pin "10"
+			(uuid "9297906b-9f37-4b12-9a80-4c88b555ff5b")
+		)
+		(pin "6"
+			(uuid "16be6cdd-82b0-4580-a98d-23b84a60d5dc")
+		)
+		(pin "3"
+			(uuid "45a26b1b-15ab-4aea-b6da-613ca118ceff")
+		)
+		(pin "5"
+			(uuid "86a33a0e-d250-4609-8736-a0c3727a6b6f")
+		)
+		(pin "9"
+			(uuid "b285bf29-1615-498f-91a5-88874dd910d7")
+		)
+		(pin "11"
+			(uuid "328a72f9-0619-4160-b357-409c180a7712")
+		)
+		(pin "14"
+			(uuid "cd9dfa69-7d51-4e04-80e4-c0671ae50a5b")
+		)
+		(pin "15"
+			(uuid "f36ca076-b8ff-4ca2-9740-a1c2c61fe4db")
+		)
+		(pin "18"
+			(uuid "4700860e-aace-4bfe-a07b-afedd4cb0cbf")
+		)
+		(pin "2"
+			(uuid "47731132-835c-4925-b30b-7e107187373b")
+		)
+		(pin "7"
+			(uuid "0c6d1cc7-6356-426b-9c00-29a930012767")
+		)
+		(pin "SH"
+			(uuid "85de4d99-2ee1-485b-9b6f-7e020f0f8f39")
+		)
+		(pin "16"
+			(uuid "a74f667c-431b-4862-a771-9e995299ad94")
+		)
+		(instances
+			(project "RPi5-PD-extension"
+				(path "/878321ff-aaf8-41ca-974f-ef56897ff458"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:HDMI_D_1.4")
+		(at 60.96 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53e0b1b8-131e-460e-aee2-0fa22ac62a91")
+		(property "Reference" "J2"
+			(at 72.39 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HDMI0_Receptacle"
+			(at 72.39 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.595 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml"
+			(at 61.595 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HDMI 1.4+ type D connector"
+			(at 60.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "cd78d94e-36e2-4532-8703-d7d580839603")
+		)
+		(pin "13"
+			(uuid "73d7c638-20ec-4095-987d-d728cbb3d552")
+		)
+		(pin "17"
+			(uuid "e09e11b7-735e-4940-955b-3ca4291f2f9d")
+		)
+		(pin "1"
+			(uuid "38a387bb-134b-4cf1-887b-2d212311c080")
+		)
+		(pin "8"
+			(uuid "382673fb-9c75-4421-a407-a8fc27577bfa")
+		)
+		(pin "19"
+			(uuid "dd26188f-7c7a-4f12-a491-3eebee2380aa")
+		)
+		(pin "4"
+			(uuid "200fab3e-c852-40ab-a907-ca23a979374e")
+		)
+		(pin "10"
+			(uuid "fe510a00-5584-44d2-9281-ae085f051b61")
+		)
+		(pin "6"
+			(uuid "b208816a-932a-4c72-9d35-d15211e8abab")
+		)
+		(pin "3"
+			(uuid "3d0bb0ff-3039-457b-b6d3-23a544db28e6")
+		)
+		(pin "5"
+			(uuid "b48dd47e-0f51-43d6-a1b1-68e2d4aa34f4")
+		)
+		(pin "9"
+			(uuid "476007d3-e73f-430c-9ebe-9c4e379e5142")
+		)
+		(pin "11"
+			(uuid "07ec0bd5-5a24-4d70-8ce2-b7b1848df763")
+		)
+		(pin "14"
+			(uuid "e555a008-170c-4a39-b595-957024cac4cf")
+		)
+		(pin "15"
+			(uuid "f9aa71a1-4fb3-46c0-9b85-d854aecdf3c3")
+		)
+		(pin "18"
+			(uuid "986879de-d555-4934-896c-1db3b77ce81c")
+		)
+		(pin "2"
+			(uuid "2b8bafb1-fcbb-43d2-9960-2889c5617662")
+		)
+		(pin "7"
+			(uuid "71de3ecb-a821-4514-bcea-733cb0646e88")
+		)
+		(pin "SH"
+			(uuid "74523b76-47d6-4c34-837d-43a7fd128d79")
+		)
+		(pin "16"
+			(uuid "7686cbcc-bb74-436b-a64a-680ad0daab8e")
+		)
+		(instances
+			(project "RPi5-PD-extension"
+				(path "/878321ff-aaf8-41ca-974f-ef56897ff458"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:HDMI_D_1.4")
+		(at 116.84 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2a2c809-2935-4bb1-a5a3-cbeb772f6676")
+		(property "Reference" "J3"
+			(at 105.41 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HDMI1_Plug"
+			(at 105.41 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.205 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml"
+			(at 116.205 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HDMI 1.4+ type D connector"
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "ddc6c761-e10e-4a0f-abdd-f4bb3a4c55d3")
+		)
+		(pin "13"
+			(uuid "88b2ad52-7d61-4851-8753-e9e47d6269b6")
+		)
+		(pin "17"
+			(uuid "4b55d025-e7c1-47dd-92cf-6b0bde23a5ae")
+		)
+		(pin "1"
+			(uuid "7e21deee-b686-4e6b-9a08-898a27b1a6ea")
+		)
+		(pin "8"
+			(uuid "6897ea3e-3e13-4002-a339-86a2832f4b4b")
+		)
+		(pin "19"
+			(uuid "ed04a750-4016-4557-905b-9e73fed13414")
+		)
+		(pin "4"
+			(uuid "04d096f1-3ac0-45da-80f6-035e65387888")
+		)
+		(pin "10"
+			(uuid "05945840-3926-4010-8c2d-9941930455a5")
+		)
+		(pin "6"
+			(uuid "568d7f4d-0aa9-4517-a1c8-bb682a1b1797")
+		)
+		(pin "3"
+			(uuid "5b834095-2f60-49d2-89ba-4955090411ec")
+		)
+		(pin "5"
+			(uuid "78122028-12df-4a1b-b308-d248236d2990")
+		)
+		(pin "9"
+			(uuid "ebb9da7d-15d3-4b95-a21c-88be21d9ea0b")
+		)
+		(pin "11"
+			(uuid "a55aceca-f43c-4acf-89dc-e146d8a799f8")
+		)
+		(pin "14"
+			(uuid "061741de-14d9-4b7f-9a35-b70344465311")
+		)
+		(pin "15"
+			(uuid "265f86ca-d08c-4a8e-a59f-07e56ae762b1")
+		)
+		(pin "18"
+			(uuid "1677e41b-d685-4b78-83a6-e1447b873dc2")
+		)
+		(pin "2"
+			(uuid "9694a13e-5b05-4a6c-9d42-42e9f39a9a00")
+		)
+		(pin "7"
+			(uuid "9ba88aee-d410-4e9d-a203-e89f60bd1a70")
+		)
+		(pin "SH"
+			(uuid "a056faca-93c3-4198-b939-8b481626ca22")
+		)
+		(pin "16"
+			(uuid "88810b5e-0ec7-450d-b1f8-f041e68ba082")
+		)
+		(instances
+			(project "RPi5-PD-extension"
+				(path "/878321ff-aaf8-41ca-974f-ef56897ff458"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
